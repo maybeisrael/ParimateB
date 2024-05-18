@@ -80,7 +80,7 @@ export default function About() {
                     height={22}
                   />
                 </div>
-                The players are the "House"
+                The players are the &quot;House&quot;
               </li>
             </ul>
           </div>
@@ -194,7 +194,7 @@ export default function About() {
         
             </div>
             <div>
-                With PariMate, it's your game, your way. Connect with fellow betting enthusiasts and build your network.
+                With PariMate, it&apos; your game, your way. Connect with fellow betting enthusiasts and build your network.
             </div>
 
       </div>

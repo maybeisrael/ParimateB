@@ -22,7 +22,7 @@ export default function Hero() {
             Welcome to peer-2-peer betting, revolutionized.
           </p>
           <p>
-            Tired of feeling like the house always wins? Us too. That's why we
+            Tired of feeling like the house always wins? Us too. That&apos;s why we
             built PariMate, the peer-to-peer betting platform that puts you in
             control.
           </p>

@@ -45,7 +45,7 @@ export default function Content() {
               </div>
               <div className="flex flex-col">
                 <div>Download Parimate</div>
-                <div>With PariMate, it's your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
+                <div>With PariMate, it&apos;s your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
               </div>
             </li>
             <li
@@ -68,7 +68,7 @@ export default function Content() {
               </div>
               <div className="flex flex-col">
                 <div>Fund your wallet</div>
-                <div>With PariMate, it's your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
+                <div>With PariMate, it&apos;s your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
               </div>
             </li>
             <li className="flex items-center py-5">
@@ -82,7 +82,7 @@ export default function Content() {
               </div>
               <div className="flex flex-col">
                 <div>Create or Join Game(s)</div>
-                <div>With PariMate, it's your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
+                <div>With PariMate, it&apos;s your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
               </div>
             </li>
             <li className="flex items-center py-5">
@@ -96,7 +96,7 @@ export default function Content() {
               </div>
               <div className="flex flex-col">
                 <div>Win Stake!</div>
-                <div>With PariMate, it's your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
+                <div>With PariMate, it&apos;s your game, your way. Connect with fellow betting enthusiasts and build your network.</div>
               </div>
             </li>
           </ul>
