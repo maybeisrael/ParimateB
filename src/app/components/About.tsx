@@ -183,12 +183,12 @@ export default function About() {
       <div className='mt-20'>
         Frequently Asked Questions
       </div>
-      <div  className="box px-7" style={{
+      <div  className=" px-7" style={{
           background: '#0000',
           height: '149px', // Set the height of the boxes
-          width: '1257px', // Set the width of the boxes
+          width: '957px', // Set the width of the boxes
           display: 'flex', // Use flexbox for layout
-          alignItems: 'left', // Center items vertically
+          alignItems: 'center', // Center items vertically
           justifyContent: 'space-between', // Space items evenly horizontally
           padding: '20px', // Add padding for spacing
           border: '2px solid #EB9B23',
@@ -206,7 +206,7 @@ export default function About() {
       <div  className="box mt-7 " style={{
           background: '#0000',
           height: '49px', // Set the height of the boxes
-          width: '1257px', // Set the width of the boxes
+          width: '957px', // Set the width of the boxes
           display: 'flex', // Use flexbox for layout
           alignItems: 'left', // Center items vertically
           justifyContent: 'space-between', // Space items evenly horizontally
@@ -224,7 +224,7 @@ export default function About() {
       <div  className="box mt-7 mb-7 " style={{
           background: '#0000',
           height: '49px', // Set the height of the boxes
-          width: '1257px', // Set the width of the boxes
+          width: '957px', // Set the width of the boxes
           display: 'flex', // Use flexbox for layout
           alignItems: 'left', // Center items vertically
           justifyContent: 'space-between', // Space items evenly horizontally
