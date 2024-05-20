@@ -4,7 +4,8 @@ import Image from 'next/image';
 export default function About() {
   return (
     <div className="aboutContainer">
-      <div className="title">PariMate vs The Bettors</div>
+      <div>
+        <div className="title">PariMate vs The Bettors</div>
       <div className="box-container">
         
         <div className="box" style={{
@@ -175,10 +176,14 @@ export default function About() {
           </div>
         </div>
       </div>
+      
+
+      </div>
+      
       <div className='mt-20'>
         Frequently Asked Questions
       </div>
-      <div  className="box " style={{
+      <div  className="box px-7" style={{
           background: '#0000',
           height: '149px', // Set the height of the boxes
           width: '1257px', // Set the width of the boxes
@@ -187,7 +192,7 @@ export default function About() {
           justifyContent: 'space-between', // Space items evenly horizontally
           padding: '20px', // Add padding for spacing
           border: '2px solid #EB9B23',
-          
+          marginLeft:'20px'
         }}>
             <div>
                 First question goes here
@@ -231,9 +236,8 @@ export default function About() {
                 Third question goes here
         
             </div>
-            
-
       </div>
+      
         </div>
 
     

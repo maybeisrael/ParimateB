@@ -5,15 +5,22 @@
 /* purgecss end ignore */
 
 .backgroundImage {
-  background-image: url(/images/background.jpg);
-  background-size:cover;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100;
   height: 100vh;
-  position:flex; 
+  position: relative;
   z-index: -1;
-  
+}
+
+.custom-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 68.26px;
+  text-align: left;
 }
 
 body {
@@ -22,33 +29,36 @@ body {
 }
 
 .backgroundd {
-  background-color:#2A2D37E5;
+  background-color: #2A2D37E5;
   width: 100%;
   height: 100vh;
   position: relative;
 }
+
 .box {
-  width: 749px; /* Each box takes 50% of the container's width */
+  /* Each box takes 50% of the container's width */
   padding: 20px;
   border: 2px solid #ccc;
   box-sizing: border-box;
-  margin-left: 2;
-  margin-right: 2;
+  margin: 2px; /* Adjusted from margin-left and margin-right */
   display: flex;
   align-items: center;
-  background: #2A52BE33;/* Include padding and border in the width calculation */
+  background: #2A52BE33; /* Include padding and border in the width calculation */
 }
-.box >div{
+
+.box > div {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
   min-width: none;
 }
+
 @media (max-width: 768px) {
   .box > div {
     font-size: 14px; /* Adjust as needed for smaller screens */
   }
 }
+
 .aboutContainer {
   min-height: 100vh; /* Take up full viewport height */
   background-color: white; /* Background color */
@@ -57,45 +67,48 @@ body {
   color: #000;
   flex-direction: column;
   align-items: center;
-
 }
-.nav{
+
+.nav {
   align-items: center;
-  
   display: flex;
   flex-direction: column;
 }
+
 .aboutContent {
   max-width: 800px; /* Adjust as needed */
   padding: 20px;
   color: black; /* Text color */
 }
+
 .title {
   margin-bottom: 1rem;
-   
 }
+
 .box-container {
   display: flex;
   gap: 1rem;
 }
+
 .badge {
   margin-right: 1rem; /* Adjust the margin between the badge and content */
 }
+
 .badge-content {
   display: inline-flex;
   align-items: center;
 }
+
 .flex-content {
   margin-top: 20px;
   text-align: center;
 }
+
 .image-container {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
   position: relative;
- 
   height: 100vh;
   width: 100px;
-
 }

@@ -23,6 +23,7 @@ const Footer = () => {
           top: '18px',
           left: '88px',
           position: 'relative',
+          marginLeft:'20px',
         }}
       >
         <div className={`${inknut.className} text-lg`}>
