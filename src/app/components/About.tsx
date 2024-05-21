@@ -12,10 +12,10 @@ export default function About() {
           background: '#2A741833',
           height: '445px', 
           width: '369px', 
-          display: 'flex', // Use flexbox for layout
-          alignItems: 'center', // Center items vertically
-          justifyContent: 'space-between', // Space items evenly horizontally
-          padding: '20px', // Add padding for spacing
+          display: 'flex', 
+          alignItems: 'center',
+          justifyContent: 'space-between', 
+          padding: '20px', 
           border: '4px solid #EB9B23'
           
         }}>
@@ -223,12 +223,12 @@ export default function About() {
       </div>
       <div  className=" mt-5 boxContain " style={{
           
-          height: '49px', // Set the height of the boxes
-          width: '850px', // Set the width of the boxes
+          height: '49px', 
+          width: '850px', 
            
           alignItems: 'center', 
-          justifyContent: 'space-between', // Space items evenly horizontally
-          padding: '20px', // Add padding for spacing
+          justifyContent: 'space-between', 
+          padding: '20px',
           border: '4px solid #EB9B23',
           
         }}>

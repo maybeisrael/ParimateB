@@ -4,16 +4,19 @@ import Image from 'next/image';
 export default function Content() {
   return (
     <div className="backgroundd">
-      <div>
-        <div className="absolute left-0 top-[255px]">
-          <Image
-            src="/images/hero.png"
-            alt="hero image"
-            width={699}
-            height={695}
-          />
-        </div>
+      
+      <div className="relative min-h-screen">
+      <div className="absolute left-0 bottom-0 w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
+        <Image
+          src="/images/hero.png"
+          alt="hero image"
+          layout="responsive"
+          width={699}
+          height={695}
+        />
       </div>
+    </div>
+
 
       <div className="flex flex-col items-center justify-center py-7 text-center">
       <div className="box w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 p-4  rounded-md">
