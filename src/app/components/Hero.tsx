@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className="backgroundImage page">
+    <div className="backgroundImage page py-6">
       <div className="content py-5 px-9  ">
         <div>
           <Image
             src="/images/darkmode_logo.png"
             alt="Logo"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
         </div>
         <div className="flex px-9 justify-left">

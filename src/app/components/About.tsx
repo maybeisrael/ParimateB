@@ -205,12 +205,12 @@ export default function About() {
 
       <div  className="mt-5 boxContain" style={{
           background: '#0000',
-          height: '49px', // Set the height of the boxes
-          width: '850px', // Set the width of the boxes
-          display: 'flex', // Use flexbox for layout
-          alignItems: 'center', // Center items vertically
+          height: '49px', 
+          width: '850px', 
+          display: 'flex',  
+          alignItems: 'center',  
       
-          padding: '20px', // Add padding for spacing
+          padding: '20px', 
           border: '4px solid #EB9B23',
           
         }}>
