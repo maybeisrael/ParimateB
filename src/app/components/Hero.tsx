@@ -14,7 +14,7 @@ export default function Hero() {
           />
         </div>
         <div className="flex px-9 justify-left">
-          <div className="mt-7 max-w-[900px] w-full">
+          <div className="mt-7 max-w-[850px] w-full max-h-[800px]">
             <h1 className="custom-h1">
               <span className="text-white">Ditch the<span className="text-blue-500"> Bookie</span>. Own the </span>
               <span className="text-blue-500">Bet</span>
