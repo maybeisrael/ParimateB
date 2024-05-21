@@ -15,10 +15,18 @@ export default function Content() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center  text-center">
-        <div className="box mt-5 py-4 px-5">
-          <div>High winning Odds - Hedge your bet</div>
-        </div>
+      <div className="flex flex-col items-center justify-center py-7 text-center">
+      <div className="box w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 p-4  rounded-md">
+      <div className="text-xl md:text-2xl lg:text-5xl">
+  <span className="text-white">High winning Odds-</span>
+  <span className="text-blue-500">Hedge </span>
+  <span className="text-white">your bet</span>
+</div>
+
+</div>
+
+
+
 
         <div className="flex-content mt-5">
           Hedge your bets by joining multiple stakes. Explore alternative outcomes and increase your chances of winning!

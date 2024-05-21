@@ -12,9 +12,9 @@ const Footer = () => {
     <footer
       style={{
         background: '#2A2D37',
-        height: '322px', // Maintain the height of the footer
+        height: '322px', 
       }}
-      className="footer flex p-8 text-color-gray-light"
+      className="footer flex p-8 text-white"
     >
       <div
         style={{
@@ -24,6 +24,7 @@ const Footer = () => {
           left: '88px',
           position: 'relative',
           marginLeft:'20px',
+          
         }}
       >
         <div className={`${inknut.className} text-lg`}>
@@ -36,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer-content" style={{ width: '25%' }}> {/* Set the right side width to 25% */}
+      <div style={{ width: '25%' }}> 
         <div className="flex justify-end">
           <ul className="list-none">
             <li>Pages</li>

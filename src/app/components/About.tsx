@@ -3,20 +3,21 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="aboutContainer">
-      <div>
-        <div className="title">PariMate vs The Bettors</div>
+    <div className='aboutContain'>
+      <div className="aboutContainer">
+        <div className="title mt-5">PariMate vs The Bettors</div>
       <div className="box-container">
         
         <div className="box" style={{
           background: '#2A741833',
-          height: '445px', // Set the height of the boxes
-          width: '369px', // Set the width of the boxes
+          height: '445px', 
+          width: '369px', 
           display: 'flex', // Use flexbox for layout
           alignItems: 'center', // Center items vertically
           justifyContent: 'space-between', // Space items evenly horizontally
           padding: '20px', // Add padding for spacing
-          border: '2px solid #EB9B23'
+          border: '4px solid #EB9B23'
+          
         }}>
           <div className="content" style={{ color: '#2A2D37' }}>
             <div className='text-center' style={{
@@ -27,7 +28,7 @@ export default function About() {
               textAlign: 'center',
               marginBottom: '20px'
             }}>Parimate</div>
-            <ul className="list-none">
+            <ul className="list-none rounded-md">
               <li className="flex items-center">
                 <div className="badge mr-2">
                   <Image
@@ -88,14 +89,14 @@ export default function About() {
         </div>
 
         {/* Second Box */}
-        <div className="box" style={{
+        <div className="boxContain" style={{
           background: '#2A52BE33',
-          height: '445px', // Set the height of the boxes
-          width: '369px', // Set the width of the boxes
-          display: 'flex', // Use flexbox for layout
-          alignItems: 'center', // Center items vertically
-          justifyContent: 'space-between', // Space items evenly horizontally
-          padding: '20px', // Add padding for spacing
+          height: '445px', 
+          width: '369px', 
+          display: 'flex',
+          alignItems: 'center', 
+          justifyContent: 'space-between',
+          padding: '20px', 
         }}>
           <div className="content">
             <div className='text-center' style={{
@@ -175,61 +176,60 @@ export default function About() {
             </ul>
           </div>
         </div>
-      </div>
-      
+
 
       </div>
-      
-      <div className='mt-20'>
+      <div className='mt-9'>
         Frequently Asked Questions
       </div>
-      <div  className=" px-7" style={{
-          background: '#0000',
-          height: '149px', // Set the height of the boxes
-          width: '957px', // Set the width of the boxes
-          display: 'flex', // Use flexbox for layout
-          alignItems: 'center', // Center items vertically
-          justifyContent: 'space-between', // Space items evenly horizontally
-          padding: '20px', // Add padding for spacing
-          border: '2px solid #EB9B23',
-          marginLeft:'20px'
-        }}>
-            <div>
-                First question goes here
-        
-            </div>
-            <div>
-                With PariMate, it&apos; your game, your way. Connect with fellow betting enthusiasts and build your network.
-            </div>
+      <div className="mt-7 px-5  h-auto w-full max-w-screen-sm  justify-center items-center space-y-4 mr-60 " >
+  <div className='mt-4 boxContain '
+  style={{
+    background: '#0000',
+    height: '99px', 
+    width: '850px', 
+    display: 'flex', 
+    flexDirection: 'column',
+    alignItems:'left', 
+    padding: '20px', 
+    border: '4px solid #EB9B23', 
+    
+  }}>
+  <div>
+    First question goes here
+  </div>
+  <div>
+    With PariMate, it&apos;s your game, your way. Connect with fellow betting enthusiasts and build your network.
+  </div>
+</div>
 
-      </div>
-      <div  className="box mt-7 " style={{
+      <div  className="mt-5 boxContain" style={{
           background: '#0000',
           height: '49px', // Set the height of the boxes
-          width: '957px', // Set the width of the boxes
+          width: '850px', // Set the width of the boxes
           display: 'flex', // Use flexbox for layout
-          alignItems: 'left', // Center items vertically
-          justifyContent: 'space-between', // Space items evenly horizontally
+          alignItems: 'center', // Center items vertically
+      
           padding: '20px', // Add padding for spacing
-          border: '2px solid #EB9B23',
+          border: '4px solid #EB9B23',
           
         }}>
-            <div>
+            <div className=''>
                 Second question goes here
         
             </div>
             
 
       </div>
-      <div  className="box mt-7 mb-7 " style={{
-          background: '#0000',
+      <div  className=" mt-5 boxContain " style={{
+          
           height: '49px', // Set the height of the boxes
-          width: '957px', // Set the width of the boxes
-          display: 'flex', // Use flexbox for layout
-          alignItems: 'left', // Center items vertically
+          width: '850px', // Set the width of the boxes
+           
+          alignItems: 'center', 
           justifyContent: 'space-between', // Space items evenly horizontally
           padding: '20px', // Add padding for spacing
-          border: '2px solid #EB9B23',
+          border: '4px solid #EB9B23',
           
         }}>
             <div>
@@ -237,6 +237,13 @@ export default function About() {
         
             </div>
       </div>
+
+
+  </div>
+  
+      </div>
+      
+      
       
         </div>
 
