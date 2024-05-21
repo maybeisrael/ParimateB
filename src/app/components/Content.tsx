@@ -3,9 +3,7 @@ import Image from 'next/image';
 
 export default function Content() {
   return (
-    <div className="backgroundd">
-      
-      <div className="relative min-h-screen">
+    <div className="relative min-h-screen backgroundd">
       <div className="absolute left-0 bottom-0 w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
         <Image
           src="/images/hero.png"
@@ -15,21 +13,15 @@ export default function Content() {
           height={695}
         />
       </div>
-    </div>
 
-
-      <div className="flex flex-col items-center justify-center py-7 text-center">
-      <div className="box w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 p-4  rounded-md">
-      <div className="text-xl md:text-2xl lg:text-5xl">
-  <span className="text-white">High winning Odds-</span>
-  <span className="text-blue-500">Hedge </span>
-  <span className="text-white">your bet</span>
-</div>
-
-</div>
-
-
-
+      <div className="flex flex-col items-center justify-center py-7 text-center min-h-screen">
+        <div className="box w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 p-4 rounded-md">
+          <div className="text-xl md:text-2xl lg:text-5xl">
+            <span className="text-white">High winning Odds-</span>
+            <span className="text-blue-500">Hedge </span>
+            <span className="text-white">your bet</span>
+          </div>
+        </div>
 
         <div className="flex-content mt-5">
           Hedge your bets by joining multiple stakes. Explore alternative outcomes and increase your chances of winning!
@@ -43,7 +35,7 @@ export default function Content() {
                 width: '827px',
                 height: '102px',
                 gap: '0px',
-                opacity: '0px',
+                opacity: '0',
               }}
             >
               <div className="badge flex items-center mr-2">
@@ -66,7 +58,7 @@ export default function Content() {
                 height: '102px',
                 padding: '0px 6px 0px 0px',
                 gap: '0px',
-                opacity: '0px',
+                opacity: '0',
               }}
             >
               <div className="badge flex items-center mr-2">

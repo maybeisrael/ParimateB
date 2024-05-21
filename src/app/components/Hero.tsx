@@ -46,7 +46,7 @@ export default function Hero() {
               </div>
             </div>
             <div className=" ">
-              <h1 className='py-5 text-white text-base sm:text-lg mb-6 lg:text-7xl'>
+              <h1 className='py-5 text-white text-base sm:text-lg mb-6 lg:text-3xl'>
                 Connect and stake bets with your friends & fellow betting enthusiasts.
               </h1>
             </div>
