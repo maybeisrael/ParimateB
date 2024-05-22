@@ -1,7 +1,12 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
+import Modal from './Modal';
+import { useState } from 'react';
 
 export default function Hero() {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <div className="backgroundImage page px-9 py-6">
       <div className="content">
@@ -27,12 +32,19 @@ export default function Hero() {
             </p>
             <div className="items-center py-9 flex">
               <div>
-                <Image
-                  src="/images/btn_JoinNow.png"
-                  alt="Join Now"
-                  width={159}
-                  height={57}
-                />
+              
+    <button onClick={() => setModalOpen(true)}>
+        <Image
+          src="/images/btn_JoinNow.png"
+          alt="Join Now"
+          width={170}
+          height={70}
+        />
+      </button>
+      <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+
+    
+    
               </div>
               <div className="px-4">
                 <Image
