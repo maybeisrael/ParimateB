@@ -53,23 +53,17 @@
   
 }
 .page {
-  position: relative;
+  @apply relative w-full h-screen;
   background-image: url('/images/background.jpg');
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 100vh; /* or any other height */
 }
 
 .page::before {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  
-  background-color: rgba(44, 41, 41, 0.87); 
-  pointer-events: none; 
+  @apply absolute top-0 left-0 w-full h-full;
+  background-color: rgba(44, 41, 41, 0.87);
+  pointer-events: none;
 }
 
 .content {
