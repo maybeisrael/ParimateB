@@ -83,8 +83,8 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <div className="max-w-[500px]">
-              <h1 className='py-5 text-white text-base sm:text-lg  lg:text-3xl'>
+            <div className="max-w-[750px] w-full max-h-[100px]">
+              <h1 className=' text-white text-base   lg:text-2xl'>
                 Connect and stake bets with your friends & fellow betting enthusiasts.
               </h1>
             </div>
