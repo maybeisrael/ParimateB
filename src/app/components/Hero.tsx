@@ -18,6 +18,20 @@ export default function Hero() {
             height={200}
           />
         </div>
+        <div className="">
+  <div className="absolute top-0 right-1 m-4">
+    <button onClick={() => setModalOpen(true)}>
+      <Image
+        src="/images/btn_TopGetPariMate.png"
+        alt="Join Now"
+        width={170}
+        height={70}
+      />
+    </button>
+  </div>
+  <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+</div>
+
         <div className="flex px-9 justify-left">
           <div className="mt-7 max-w-[850px] w-full max-h-[800px]">
             <h1 className="custom-h1">
