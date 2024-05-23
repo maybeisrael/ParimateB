@@ -18,6 +18,20 @@ export default function Hero() {
             height={200}
           />
         </div>
+        <div className="relative">
+  <div className="absolute top-6 right-6 mt-8 max-w-[800px] max-h-[300px] px-5 py-7">
+    <div>
+      <Image
+        src="/images/sidepic.png"
+        alt="Right Side Image"
+        layout="responsive"
+        width={900}
+        height={500}
+        className="max-w-full h-auto"
+      />
+    </div>
+  </div>
+</div>
         <div className="">
   <div className="absolute top-0 right-1 m-4">
     <button onClick={() => setModalOpen(true)}>
@@ -77,18 +91,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="absolute top-6 right-6 mt-8 max-w-[800px] max-h-[300px] items-center px-5 py-7">
-          <div>
-            <Image
-              src="/images/sidepic.png"
-              alt="Right Side Image"
-              layout="responsive"
-              width={800}
-              height={500}
-              className="max-w-full h-auto"
-            />
-          </div>
-        </div>
+       
+
       </div>
     </div>
   );
