@@ -21,7 +21,7 @@ const EarlyBirdModal: React.FC<EarlyBirdModalProps> = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center">
   <div
-    className="bg-white p-6 rounded-lg shadow-lg "
+    className="bg-white px-5 py-6 rounded-lg shadow-lg "
     style={{
       width: '608px',
       height: '499px',
@@ -50,23 +50,37 @@ const EarlyBirdModal: React.FC<EarlyBirdModalProps> = ({ isOpen, onClose }) => {
       }}
     className="justify-evenly py-3 ">Join PariMate now and become an Early Bird! As a founding member, you&apos;ll unlock exclusive benefits to kickstart your peer-to-peer betting experience.</p>
     <form 
-    className='py-8'
-    onSubmit={handleSubmit}>
-      <input
-        type="email"
-        placeholder="Enter your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-      />
-      <button type="submit">Join</button>
-    </form>
-    <ul>
-      <li><strong>Bonus Welcome Points:</strong> Get a head start on the competition with a bonus of N1,000 worth of first bets.</li>
-      <li><strong>Early Access to Features:</strong> Enjoy dedicated support to ensure smooth and productive feedback to help shape the future of PariMate.</li>
-      <li><strong>Priority Customer Support:</strong> Be among the first to experience upcoming enhancements on our platform dedicated exclusively for our early birds.</li>
-    </ul>
-    <button onClick={onClose} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Close</button>
+  className='py-8 space-y-4'
+  onSubmit={handleSubmit}
+>
+  <input
+    type="email"
+    placeholder="Enter your email address"
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    className="block w-full px-4 py-2 border rounded-md"
+    required
+  />
+  <button
+    type="submit"
+    className="block w-full px-4 py-2 bg-blue-600 text-white rounded-md"
+  >
+    Join Early Bird
+  </button>
+</form>
+
+<ul className="list-disc ml-5">
+  <li><strong>Bonus Welcome Points:</strong> Get a head start on the competition with a bonus of N1,000 worth of first bets.</li>
+  <li><strong>Early Access to Features:</strong> Enjoy dedicated support to ensure smooth and productive feedback to help shape the future of PariMate.</li>
+  <li><strong>Priority Customer Support:</strong> Be among the first to experience upcoming enhancements on our platform dedicated exclusively for our early birds.</li>
+</ul>
+
+<div className="flex justify-end">
+  <button onClick={onClose} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">
+    Close
+  </button>
+</div>
+
   </div>
 </div>
 
