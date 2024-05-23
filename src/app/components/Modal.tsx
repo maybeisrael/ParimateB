@@ -1,5 +1,10 @@
 
 import React, { useState } from 'react';
+import { Montserrat, Nunito_Sans } from "next/font/google";
+
+const montserrat = Montserrat({ weight: ['400'], subsets: ['latin'] });
+const nunitoSans = Nunito_Sans({ weight: ['400'], subsets: ['latin'] });
+
 
 
 interface EarlyBirdModalProps {
@@ -19,13 +24,13 @@ const EarlyBirdModal: React.FC<EarlyBirdModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center">
+    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center ">
   <div
     className="bg-white px-5 py-6 rounded-lg shadow-lg "
     style={{
       width: '608px',
       height: '499px',
-      
+    
       opacity: '3', 
     }}
   >
@@ -41,33 +46,39 @@ const EarlyBirdModal: React.FC<EarlyBirdModalProps> = ({ isOpen, onClose }) => {
 >
   Get Early Bird Access!
 </h2>
-    <p 
-     style={{
-        width: '100%',
-        height: '89px',
-        
-        
-      }}
-    className="justify-evenly py-3 ">Join PariMate now and become an Early Bird! As a founding member, you&apos;ll unlock exclusive benefits to kickstart your peer-to-peer betting experience.</p>
-    <form 
-  className='py-8 space-y-4'
-  onSubmit={handleSubmit}
+<h2
+  style={{
+    width: '100%',
+    height: '89px',
+  }}
+  className="py-3 text-center font-nunito text-base font-normal leading-[21.82px]"
 >
-  <input
-    type="email"
-    placeholder="Enter your email address"
-    value={email}
-    onChange={(e) => setEmail(e.target.value)}
-    className="block w-full px-4 py-2 border rounded-md"
-    required
-  />
-  <button
-    type="submit"
-    className="block w-full px-4 py-2 bg-blue-600 text-white rounded-md"
+  Join PariMate now and become an Early Bird! As a founding member, you&apos;ll unlock exclusive benefits to kickstart your peer-to-peer betting experience.
+</h2>
+
+
+    <div className="flex justify-center items-center ">
+  <form 
+    className='py-8 space-y-4 max-w-[300px] w-full'
+    onSubmit={handleSubmit}
   >
-    Join Early Bird
-  </button>
-</form>
+    <input
+      type="email"
+      placeholder="Enter your email address"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+      className="block w-full px-4 py-2 border rounded-md"
+      required
+    />
+    <button
+      type="submit"
+      className="block w-full px-4 py-2 bg-blue-600 text-white rounded-md"
+    >
+      Join Early Bird
+    </button>
+  </form>
+</div>
+
 
 <ul className="list-disc ml-5">
   <li><strong>Bonus Welcome Points:</strong> Get a head start on the competition with a bonus of N1,000 worth of first bets.</li>

@@ -19,13 +19,13 @@ export default function Hero() {
           />
         </div>
         <div className="relative">
-  <div className="absolute top-6 right-6 mt-8 max-w-[800px] max-h-[300px] px-5 py-7">
+  <div className="absolute top-6 right-6  max-w-[900px] max-h-[700px] px-5 py-7">
     <div>
       <Image
         src="/images/sidepic.png"
         alt="Right Side Image"
         layout="responsive"
-        width={900}
+        width={800}
         height={500}
         className="max-w-full h-auto"
       />
@@ -47,7 +47,7 @@ export default function Hero() {
 </div>
 
         <div className="flex px-9 ">
-          <div className="mt-7 max-w-[550px] w-full max-h-[500px]">
+          <div className="mt-7 max-w-[850px] w-full max-h-[500px]">
             <h1 className="custom-h1">
               <span className="text-white">Ditch the<span className="text-blue-500"> Bookie</span>. Own the </span>
               <span className="text-blue-500">Bet</span>
@@ -83,8 +83,8 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <div className="max-w-[900px]">
-              <h1 className='py-5 text-white text-base sm:text-lg mb-6 lg:text-3xl'>
+            <div className="max-w-[500px]">
+              <h1 className='py-5 text-white text-base sm:text-lg  lg:text-3xl'>
                 Connect and stake bets with your friends & fellow betting enthusiasts.
               </h1>
             </div>
