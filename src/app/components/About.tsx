@@ -6,9 +6,9 @@ export default function About() {
     <div className='aboutContain'>
       <div className="aboutContainer">
         <div className="title mt-5">PariMate vs The Bettors</div>
-      <div className="box-container">
+      <div className="box-container max-md:flex-col">
         
-        <div className="box" style={{
+        <div className="box " style={{
           background: '#2A741833',
           height: '445px', 
           width: '369px', 
@@ -182,12 +182,12 @@ export default function About() {
       <div className='mt-9'>
         Frequently Asked Questions
       </div>
-      <div className="mt-7 px-5  h-auto w-full max-w-screen-sm  justify-center items-center space-y-4 mr-60 " >
+      <div className="mt-7 px-5  h-auto  w-screen  justify-center items-center space-y-4 max-w-[90%]" >
   <div className='mt-4 boxContain '
   style={{
     background: '#0000',
-    height: '99px', 
-    width: '850px', 
+    minHeight: '99px', 
+    width: '100%', 
     display: 'flex', 
     flexDirection: 'column',
     alignItems:'left', 
@@ -205,8 +205,8 @@ export default function About() {
 
       <div  className="mt-5 boxContain" style={{
           background: '#0000',
-          height: '49px', 
-          width: '850px', 
+          minHeight: '49px', 
+          width: '100%', 
           display: 'flex',  
           alignItems: 'center',  
       
@@ -223,8 +223,8 @@ export default function About() {
       </div>
       <div  className=" mt-5 boxContain " style={{
           
-          height: '49px', 
-          width: '850px', 
+          minHeight: '49px', 
+          width: '100%', 
            
           alignItems: 'center', 
           justifyContent: 'space-between', 

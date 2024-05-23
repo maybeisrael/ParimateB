@@ -30,19 +30,19 @@
 .backgroundd {
   background-color: #2A2D37E5;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
 .box {
-  padding: 20px;
+  padding: 12.5px 0;
   border: 3px solid #EB9B23;
   border-radius: 10px; /* Adjust the value to change the degree of rounding */
   box-sizing: border-box;
-  margin: 2px; /* Adjusted from margin-left and margin-right */
+  /* margin: ; Adjusted from margin-left and margin-right */
   display: flex;
   align-items: center;
-  background: #2A52BE33; 
+  background: #072b8d33; 
 }
 .boxContain {
   padding: 20px;
