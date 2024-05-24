@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
   .box > div {
-    font-size: 14px; /* Adjust as needed for smaller screens */
+    font-size: 14px;
   }
 }
 

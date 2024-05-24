@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div className="backgroundImage page px-9 py-6">
       <div className="content">
-      <div className="flex justify-left">
+      <div className="flex justify-left w-[500px]">
   <Image
     src="/images/darkmode_logo.png"
     alt="Logo"
@@ -34,19 +34,21 @@ export default function Hero() {
     </div>
   </div>
 </div>
-        <div className="relative">
-  <div className="absolute top-0 right-1 m-4">
+<div className="relative">
+  <div className="absolute top-0 right-7 mt-1">
     <button onClick={() => setModalOpen(true)}>
       <Image
         src="/images/btn_TopGetPariMate.png"
         alt="Join Now"
         width={170}
         height={70}
+        className="max-w-full"
       />
     </button>
   </div>
   <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
 </div>
+
 
         <div className="flex px-9 md:px-9">
           <div className="mt-7 max-w-[850px] w-full ">
