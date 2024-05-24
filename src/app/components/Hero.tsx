@@ -10,14 +10,16 @@ export default function Hero() {
   return (
     <div className="backgroundImage page px-9 py-6">
       <div className="content">
-        <div>
-          <Image
-            src="/images/darkmode_logo.png"
-            alt="Logo"
-            width={200}
-            height={200}
-          />
-        </div>
+      <div className="flex justify-left">
+  <Image
+    src="/images/darkmode_logo.png"
+    alt="Logo"
+    width={200}
+    height={200}
+    className="max-w-full"
+  />
+</div>
+
         <div className="relative">
   <div className="absolute top-6 right-6  max-w-[900px] max-h-[700px] px-5 py-7">
     <div>
@@ -32,7 +34,7 @@ export default function Hero() {
     </div>
   </div>
 </div>
-        <div className="">
+        <div className="relative">
   <div className="absolute top-0 right-1 m-4">
     <button onClick={() => setModalOpen(true)}>
       <Image
@@ -46,13 +48,13 @@ export default function Hero() {
   <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
 </div>
 
-        <div className="flex px-9 ">
-          <div className="mt-7 max-w-[850px] w-full max-h-[500px]">
-            <h1 className="custom-h1">
+        <div className="flex px-9 md:px-9">
+          <div className="mt-7 max-w-[850px] w-full ">
+            <h1 className="custom-h1 text-white text-2xl sm:text-3xl lg:text-4xl">
               <span className="text-white">Ditch the<span className="text-blue-500"> Bookie</span>. Own the </span>
               <span className="text-blue-500">Bet</span>
             </h1>
-            <p className="py-5 text-white text-base sm:text-lg mb-6 lg:text-3xl">
+            <p className="py-5 text-white text-base sm:text-lg lg:text-xl">
               Welcome to peer-2-peer betting, revolutionized.
             </p>
             <p className='text-white'>
@@ -83,8 +85,8 @@ export default function Hero() {
                 />
               </div>
             </div>
-            <div className="max-w-[750px] w-full max-h-[100px]">
-              <h1 className=' text-white text-base   lg:text-2xl'>
+            <div className="max-w-[750px] w-full ">
+              <h1 className=' text-white text-base lg:text-xl'>
                 Connect and stake bets with your friends & fellow betting enthusiasts.
               </h1>
             </div>
