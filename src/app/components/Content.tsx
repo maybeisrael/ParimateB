@@ -5,7 +5,6 @@ export default function Content() {
   return (
     <div className="relative min-h-scree backgroundd mb-32">
 
-
       <div className=" py-7 text-center relative flex flex-col items-center">
 
         <div className="box w-100 p-1 rounded-md w-[80%] ">
@@ -18,9 +17,15 @@ export default function Content() {
 
         </div>
 
-        <div className="flex-content mt-5 w-[40%] text-white text-xs">
-          Hedge your bets by joining multiple stakes. Explore alternative outcomes and increase your chances of winning!
-        </div>
+        <div className="text-center text-white w-full md:w-[761px] h-[66px] md:h-auto">
+      <p
+        className="font-semibold text-2xl mb-5"
+        style={{ fontFamily: 'Nunito Sans', fontSize: '24px', fontWeight: 600, lineHeight: '32.74px' }}
+      >
+        Hedge your bets by <span className='text-blue-500'>joining multiple</span> stakes.{' '}
+        <span className='text-blue-500'>Explore</span> alternative outcomes and increase your chances of winning!
+      </p>
+    </div>
 
         <div className="w-100 flex-col lg:flex-row flex justify-center mt-4 items-center border2 border-red-500 bg-[#2A2D37E5] lg:h-screen relative  w-[80%] mx-0 top-0  rounded-lg shadow-lg drop-shadow shadow-white">
 
