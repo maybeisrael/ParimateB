@@ -9,9 +9,9 @@ export default function Hero() {
 
   return (
     <div className="backgroundImage page px-9 py-6">
-      <div className="content max-sm:90%">
+      <div className="content max-sm:h-[90%]">
       <div className="flex flex-row md:flex-row px-4 md:px-9">
-  <div className="mt-0 max-w-[850px] w-full md:w-[70%]">
+  <div className="mt-0 max-w-[550px] w-full md:w-[70%]">
   <Image
       src="/images/darkmode_logo.png"
       alt="Logo"
@@ -60,7 +60,7 @@ export default function Hero() {
 
 
 <div className="flex flex-col md:flex-row px-4 md:px-9">
-  <div className="mt-7 max-w-[850px] w-full md:w-[70%]">
+  <div className="mt-7 max-w-[850px] w-full md:w-[70%] md:h-[30%] max-h-[400px]">
     <h1 className="custom-h1 text-white text-2xl sm:text-3xl lg:text-4xl">
       <span className="text-white">Ditch the<span className="text-blue-500"> Bookie</span>. Own the </span>
       <span className="text-blue-500">Bet</span>
