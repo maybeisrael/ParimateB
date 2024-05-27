@@ -29,7 +29,7 @@ export default function Content() {
 
         <div className="w-100 flex-col lg:flex-row flex justify-center mt-4 items-center border2 border-red-500 bg-[#2A2D37E5] lg:h-screen relative  w-[80%] mx-0 top-0  rounded-lg shadow-lg drop-shadow shadow-white">
 
-          <div className="relative lg:absolute left-0 bottom-0 w-full sm:w-3/4 md:w-1/2 lg:w-">
+          <div className="relative lg:absolute left-0 bottom-0 w-full sm:w-3/4 md:w-1/2 lg:w- hidden md:block">
             <Image
               src="/images/hero.png"
               alt="hero image"

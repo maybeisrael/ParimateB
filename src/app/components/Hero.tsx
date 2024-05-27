@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <div className="backgroundImage page px-9 py-6">
-      <div className="content">
+      <div className="content max-sm:90%">
       <div className="flex flex-row md:flex-row px-4 md:px-9">
   <div className="mt-0 max-w-[850px] w-full md:w-[70%]">
   <Image
@@ -41,8 +41,8 @@ export default function Hero() {
 
 
 
-        <div className="relative">
-  <div className="absolute top-6 right-6  max-w-[900px] max-h-[700px] px-5 py-7">
+<div className="relative">
+  <div className="absolute top-6 right-6 max-w-[900px] max-h-[700px] px-5 py-7 hidden md:block">
     <div>
       <Image
         src="/images/sidepic.png"
@@ -55,6 +55,7 @@ export default function Hero() {
     </div>
   </div>
 </div>
+
 
 
 
